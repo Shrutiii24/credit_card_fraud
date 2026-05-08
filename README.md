@@ -26,34 +26,18 @@ Since fraudulent transactions represent less than 1% of the dataset, handling cl
 
 ## Project Workflow
 
-### 1. Exploratory Data Analysis (EDA)
-- Analyzed class imbalance
-- Visualized fraud vs non-fraud distributions
-- Performed correlation analysis
-- Identified important fraud-related features
+1. Performed Exploratory Data Analysis (EDA) to understand transaction patterns and class imbalance.
 
-### 2. Data Preprocessing
-- Train-test split using stratified sampling
-- Feature scaling using `StandardScaler`
-- SMOTE applied for class imbalance handling
+2. Applied data preprocessing techniques including train-test split, feature scaling, and SMOTE for imbalance handling.
 
-### 3. Model Building
-Implemented and compared:
-- Logistic Regression
-- Random Forest Classifier
-- XGBoost Classifier
+3. Built and compared multiple Machine Learning models:
+   - Logistic Regression
+   - Random Forest
+   - XGBoost
 
-### 4. Model Evaluation
-Models were evaluated using:
-- Precision
-- Recall
-- F1-Score
-- ROC-AUC Score
-- Confusion Matrix
-- Precision-Recall Curve
+4. Evaluated models using fraud-focused metrics such as Precision, Recall, F1-Score, ROC-AUC, and Confusion Matrix.
 
-### 5. Threshold Tuning
-Custom probability thresholds were used to optimize the precision-recall tradeoff and reduce false positives.
+5. Applied threshold tuning to improve fraud detection precision and reduce false positives.
 
 ## Key Findings
 
